@@ -18,7 +18,7 @@ try {
 }
 
 // ✅ Group Info (change these)
-const GROUP_THREAD_ID = "885013824252815";        // Group ka ID
+const GROUP_THREAD_ID = "24799895993036106";        // Group ka ID
 const LOCKED_GROUP_NAME = "RK RAJA HERE 🤍";     // Locked name
 
 // ✅ Express Server to keep bot alive (for Render or UptimeRobot)
