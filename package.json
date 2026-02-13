@@ -1,6 +1,7 @@
 {
   "name": "fb-group-locker-bot",
   "version": "1.0.0",
+  "developer": "axshu",
   "description": "Facebook group name locker bot using ws3-fca",
   "main": "index.js",
   "scripts": {
