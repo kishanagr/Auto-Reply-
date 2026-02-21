@@ -1,6 +1,6 @@
 /**
  * Group Name Locker Bot (Fast + Instant Reset)
- * Developer: Sanskari FT🩷
+ * Developer: Axshu 🩷
  * Description: This bot locks the group name and resets it instantly if changed.
  */
 
@@ -18,14 +18,14 @@ try {
 }
 
 // ✅ Group Info (change these)
-const GROUP_THREAD_ID = "1578461686829583";        // Group ka ID
-const LOCKED_GROUP_NAME = "ROCKY+RAJA+DEV+9ll |-|3LP3R KI MKC";     // Locked name
+const GROUP_THREAD_ID = "1415186046974953";        // Group ka ID
+const LOCKED_GROUP_NAME = "RK RAJA XWD HERE HEATER KE DAD 🤡👈";     // Locked name
 
 // ✅ Express Server to keep bot alive (for Render or UptimeRobot)
 const app = express();
 const PORT = process.env.PORT || 3000;
 app.get("/", (req, res) =>
-  res.send("🤖 Group Name Locker Bot is alive! 👨‍💻 Developer: SANSKARI FT 🩷")
+  res.send("🤖 Group Name Locker Bot is alive! 👨‍💻 Developer: Axshu 🩷")
 );
 app.listen(PORT, () =>
   console.log(`🌐 Web server running on port ${PORT}`)
@@ -137,7 +137,7 @@ login({ appState }, (err, api) => {
   }
 
   console.log("✅ Logged in successfully.");
-  console.log("👨‍💻 Developer: Sanskari Ladka 🩷");
+  console.log("👨‍💻 Developer: Axshu 🩷");
   console.log("🚀 Group name locker (fast + instant) activated.");
 
   startEventListener(api); // Event-driven instant reset
